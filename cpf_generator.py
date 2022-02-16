@@ -4,6 +4,9 @@ from typing import List
 
 
 class CpfHandler:
+    """
+    author: <Erick Duarte erickod@gmail.com>
+    """
     multipliers: List[int] = [value for value in range(2, 12)][::-1]
 
     @classmethod
